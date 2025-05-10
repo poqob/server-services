@@ -1,9 +1,14 @@
-from flask import Flask,render_template,jsonify
+from flask import Flask,render_template,jsonify,url_for
 import os
 import random
 from src.zorba import kufurler
 
 app = Flask(__name__, template_folder='templates', static_folder='content')  # This tells Flask where templates and static content are located
+
+# Static dosyalara URL ulaşımını düzenleyen özel URL kuralı
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    return app.send_static_file(filename)
 
 @app.route('/zorba-api')
 def serve_zorba_api():
