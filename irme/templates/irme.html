@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birlikte Geçen Zamanımız ❤</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="love-container">
+        <div class="love-header">
+            <h1>Devletimiz</h1>
+            <p>16'dan sonsuza</p>
+        </div>
+        
+        <div class="love-content">
+            <img src="{{ url_for('static', filename='ghibli.jpeg') }}" alt="Bizim Fotoğrafımız" class="love-image">
+            
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <div class="countdown-value" id="months">0</div>
+                    <div class="countdown-label">Ay</div>
+                </div>
+                
+                <div class="countdown-item">
+                    <div class="countdown-value" id="days">0</div>
+                    <div class="countdown-label">Gün</div>
+                </div>
+                
+                <div class="countdown-item">
+                    <div class="countdown-value" id="hours">0</div>
+                    <div class="countdown-label">Saat</div>
+                </div>
+                
+                <div class="countdown-item">
+                    <div class="countdown-value" id="minutes">0</div>
+                    <div class="countdown-label">Dakika</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

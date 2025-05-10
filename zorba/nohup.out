@@ -1,0 +1,195 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [30/Apr/2025 21:35:29] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:35:30] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:35:34] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:35:38] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:37:32] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:37:35] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:37:37] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:38:16] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:38:25] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:38:26] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:39:50] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:39:51] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:39:53] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:39:57] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:39:59] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:40:01] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:40:03] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:40:14] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:40:14] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:40:15] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:08] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:11] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:21] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:22] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:38] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:40] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:41:41] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:22] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:23] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:23] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:23] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:23] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:25] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:26] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:42:27] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:07] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:09] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:10] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:12] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:13] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:16] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:43:26] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:28] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:30] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:38] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:41] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:45] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:47] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:51] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:52] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:53] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:54] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:44:58] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:00] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:00] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:03] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:04] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:45:06] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:49:37] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:51:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:51:05] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:51:08] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:31] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:33] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:40] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:45] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:49] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:50] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 21:54:51] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:07:26] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:14:50] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:14:53] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:14:58] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:15:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:15:05] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:15:09] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:15:10] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:15:15] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:34:16] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 22:34:19] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:00] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:05] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:08] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:33] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:34] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:43:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:07] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:14] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:20] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:31] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:36] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:40] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:49] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:53] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:44:59] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:05] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:17] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:22] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:25] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:36] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:42] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:47] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:51] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:45:58] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:51:51] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:51:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:52:02] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:52:05] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:52:09] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:52:14] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [30/Apr/2025 23:52:18] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 07:07:54] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 07:07:55] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 07:07:56] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:05] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:07] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:08] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:09] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:10] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:12] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:13] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:13] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:14] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:15] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:16] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:17] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:18] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:19] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:20] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:23] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:28] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 10:48:29] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:06:56] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:16] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:18] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:26] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:31] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:35] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [01/May/2025 14:07:39] "GET /zorba-api HTTP/1.0" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [01/May/2025 15:10:24] "GET / HTTP/1.0" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [01/May/2025 15:14:22] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [01/May/2025 15:28:06] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [01/May/2025 15:28:10] "GET / HTTP/1.0" 404 -
+127.0.0.1 - - [09/May/2025 11:43:55] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:43:57] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:44:03] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:44:04] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:48:04] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:48:07] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [09/May/2025 11:48:10] "GET /zorba-api HTTP/1.0" 200 -
+127.0.0.1 - - [10/May/2025 13:51:11] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [10/May/2025 13:51:12] "GET /zorba-api HTTP/1.0" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [10/May/2025 22:31:32] "GET /zorba HTTP/1.0" 200 -
+127.0.0.1 - - [10/May/2025 22:31:35] "GET /zorba-api HTTP/1.0" 200 -
