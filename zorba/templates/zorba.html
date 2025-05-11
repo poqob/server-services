@@ -4,82 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png">    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
     <title>Zorbombala!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 90%;
-            max-width: 700px;
-        }
-        #kufur-display {
-            font-size: 32px;
-            margin: 20px 0;
-            color: #333;
-        }
-        button {
-            padding: 15px 30px;
-            font-size: 24px;
-            cursor: pointer;
-            background-color: #000000;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #000000;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <div id="kufur-display">Hadi Zorbalan!</div>
         <button onclick="getKufur()">Zorbalan</button>
-
     </div>
-    <script>
-        const funnyEmojis = [
-            '😜', '🤪', '🥳', '😂', '🤣', '😎', '😏', '😱', '🥴', '😭', '💀', '🤓', '😌', '💅', '😃', '🤩', '🤯', '🤗', '🤭', '🥰',
-            '🍕', '🚀', '🚗', '🍆', '🍑', '🍌', '💩', '🔥', '💥', '🚨', '🎉', '🎊', '🎈', '🌈', '☀️', '🌙', '⭐', '✨', '💫', '💦'
-        ];
-
-        function generateEmojiCombo() {
-            const combo = [];
-            for (let i = 0; i < 3; i++) {
-                const randomIndex = Math.floor(Math.random() * funnyEmojis.length);
-                combo.push(funnyEmojis[randomIndex]);
-            }
-            return combo.join('');
-        }
-
-        function getKufur() {
-            fetch('https://poqob.site:5000/zorba-api')
-                .then(response => response.json())
-                .then(data => {
-                    const emojiCombo = generateEmojiCombo();
-                    document.getElementById('kufur-display').textContent = `${data.kufur} ${emojiCombo}`;
-                })
-                .catch(error => {
-                    console.error('Hata:', error);
-                    document.getElementById('kufur-display').textContent = 'Bir hata oluştu. 😵';
-                });
-        }
-    </script>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>
 

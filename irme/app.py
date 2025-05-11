@@ -1,11 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask(__name__, static_folder='content', template_folder='templates')  # This tells Flask where templates and static content are located
-
-# Static dosyalara URL ulaşımını düzenleyen özel URL kuralı
-@app.route('/static/<path:filename>')
-def static_files(filename):
-    return app.send_static_file(filename)
+app = Flask(__name__, template_folder='templates')  # Flask'ın varsayılan statik klasör adı 'static'dir
 
 @app.route('/irme')
 def love():
