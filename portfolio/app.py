@@ -11,7 +11,7 @@ def static_files(filename):
 @app.route('/cv')
 def download_cv():
     # content klasöründeki cv.pdf dosyasını dön
-    return send_from_directory('content', 'cv.pdf')
+    return send_from_directory('content', 'mustafa_biçer_resume.pdf')
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5001)
